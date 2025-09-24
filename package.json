@@ -1,0 +1,26 @@
+{
+  "name": "langgraph-perplexity",
+  "version": "1.0.0",
+  "description": "LangGraph with ChatGroq AI integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.56",
+    "@langchain/core": "^0.3.77",
+    "@langchain/langgraph": "^0.4.9",
+    "dotenv": "^16.4.5",
+    "zod": "^3.25.76"
+  },
+  "keywords": [
+    "langgraph",
+    "groq",
+    "ai",
+    "langchain"
+  ],
+  "author": "",
+  "license": "MIT"
+}
